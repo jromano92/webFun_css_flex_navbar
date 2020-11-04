@@ -1,8 +1,12 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
 .center-box{
         min-width: 1000px;
         height: 350px;
         background-color: #180080;
-        margin: 50px;
+        margin: 30px;
         align-items: center;
         display: flex;
     }
@@ -16,11 +20,12 @@
     }
     #navbar{
         background-color: #6495ee;
-        display: flex;
-        min-width: 900px;
-        align-items: center;
-        justify-content: space-around;
-        margin: 50px;
+        display: inline-flex;
+        min-width: 1000px;
+        justify-content: space-evenly;
+        flex-wrap: nowrap;
+        margin: 30px;
+        padding-right: 60px;
     }
     ul > li{
         display: inline-flex;
@@ -31,11 +36,12 @@
         color: white;
         font-family: 'Montserrat', sans-serif;
         display: inline-flex;
+        align-items: center;
     }
     img{
         padding: 10px;
-        min-width: 40px;
-        height: 70px;
+        min-width: 30px;
+        height: 60px;
     }
     #links ul li a{
         text-decoration: none;
